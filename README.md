@@ -1,4 +1,4 @@
-# 🌱 Plant Disease Detection Using CNN
+# Plant Disease Detection Using CNN 🌱 
 This project implements a Convolutional Neural Network (CNN) to automatically classify and detect plant diseases from 🌿 leaf images. The model helps farmers and researchers identify diseases early, reducing crop loss and improving yield.
 
 
@@ -10,7 +10,8 @@ This project implements a Convolutional Neural Network (CNN) to automatically cl
 
 • User-Friendly Interface: The Streamlit web app provides a simple and intuitive platform for users to get predictions.
 
-• Robust Training: The model incorporates advanced techniques like data augmentation and dropout to prevent overfitting and ensure reliable predictions on new, unseen data.
+• Robust Training: The model incorporates advanced techniques like data augmentation and dropout to prevent overfitting and ensure reliable predictions on new, unseen da
+
 
 
 📁 Dataset and Data Preprocessing
@@ -32,6 +33,7 @@ This project implements a Convolutional Neural Network (CNN) to automatically cl
 • Data Augmentation: To improve the model's ability to generalize, the training data was augmented with random flips, rotations, and zooms.
 
 
+
 🧠 Model Architecture
 
 • The model architecture combines a powerful pre-trained model with a custom classification head.
@@ -48,25 +50,28 @@ This project implements a Convolutional Neural Network (CNN) to automatically cl
 
 • A final Dense layer with a softmax activation for multi-class prediction.
 
-🚀 How to Run the Project Locally
-To run this project, you'll need a Python environment with the required libraries.
 
-- Prerequisites
+🛠️ How to Run the Project Locally
+
+
+Prerequisites
 
 • Python (3.7+)
 
-The required libraries are listed in the requirements.txt file.
+• The required libraries are listed in the requirements.txt file.
 
-• Clone the repository:
+• Steps
 
-• git clone [https://github.com/](https://github.com/)[Your GitHub Username]/[Your Repository Name].git
-cd [Your Repository Name]
+1. Clone the repository:
 
-• Install dependencies:
+'''git clone [https://github.com/](https://github.com/)[Your GitHub Username]/[Your Repository Name].git
+cd [Your Repository Name]'''
 
-• pip install -r requirements.txt
+2. Install dependencies:
 
-• Run the Streamlit app:
+'''pip install -r requirements.txt'''
+
+3. Run the Streamlit app:
 Ensure your trained model file leaf_disease_model_stable.keras is in the same directory as app.py. Then, execute:
 
-• streamlit run app.py
+'''streamlit run app.py'''
