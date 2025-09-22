@@ -2,6 +2,8 @@
 This project implements a Convolutional Neural Network (CNN) to automatically classify and detect plant diseases from 🌿 leaf images. The model helps farmers and researchers identify diseases early, reducing crop loss and improving yield.
 
 
+
+
 🚀 Features
 
 • Image-based Classification: Identifies 15 different plant diseases from a simple photo of a leaf.
@@ -11,6 +13,7 @@ This project implements a Convolutional Neural Network (CNN) to automatically cl
 • User-Friendly Interface: The Streamlit web app provides a simple and intuitive platform for users to get predictions.
 
 • Robust Training: The model incorporates advanced techniques like data augmentation and dropout to prevent overfitting and ensure reliable predictions on new, unseen da
+
 
 
 
@@ -34,6 +37,8 @@ This project implements a Convolutional Neural Network (CNN) to automatically cl
 
 
 
+
+
 🧠 Model Architecture
 
 • The model architecture combines a powerful pre-trained model with a custom classification head.
@@ -51,8 +56,9 @@ This project implements a Convolutional Neural Network (CNN) to automatically cl
 • A final Dense layer with a softmax activation for multi-class prediction.
 
 
-🛠️ How to Run the Project Locally
 
+
+🛠️ How to Run the Project Locally
 
 Prerequisites
 
@@ -60,18 +66,19 @@ Prerequisites
 
 • The required libraries are listed in the requirements.txt file.
 
+
 • Steps
 
 1. Clone the repository:
 
-'''git clone [https://github.com/](https://github.com/)[Your GitHub Username]/[Your Repository Name].git
-cd [Your Repository Name]'''
+```git clone [https://github.com/](https://github.com/)[Your GitHub Username]/[Your Repository Name].git
+cd [Your Repository Name]```
 
 2. Install dependencies:
 
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt```
 
 3. Run the Streamlit app:
 Ensure your trained model file leaf_disease_model_stable.keras is in the same directory as app.py. Then, execute:
 
-'''streamlit run app.py'''
+```streamlit run app.py```
