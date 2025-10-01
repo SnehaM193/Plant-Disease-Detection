@@ -39,6 +39,11 @@ The application is built using a transfer learning approach with a fine-tuned Mo
 **• Data Augmentation**: To improve the model's ability to generalize, the training data was augmented with random flips, rotations, and zooms.
 
 
+<br>
+
+## Demo
+https://plant-disease-detection-dbchgo5d6c5sadcpwy9kc7.streamlit.app/
+
 
 <br>
 
